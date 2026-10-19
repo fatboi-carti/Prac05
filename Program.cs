@@ -18,7 +18,7 @@ for (int step = 1; step < stepCount; step++)
 
     for (int i = 0; i < block.Length; i++)
     {
-        block[i] = 1;
+        block[i] = 1_000_000;
     }
     blocks.Add(block);
 
